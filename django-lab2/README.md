@@ -1,7 +1,7 @@
 # Лабораторная работа №2 (Django). Модели. CRUD
 
-**Студент:** [ФИО]  
-**Группа:** [Группа]  
+**Студент:** Мержоев Ислам Игоревич
+**Группа:** ПИЖ-б-о-25-1
 **Вариант:** 4 — Задачи (To-Do)  
 
 ---
@@ -117,8 +117,6 @@ t.save()
 python manage.py createsuperuser
 ```
 
-Админка: http://127.0.0.1:8000/admin/
-
 ---
 
 ## Как запустить
@@ -162,10 +160,3 @@ python manage.py runserver
 Созданы модели News (по методичке) и Task (вариант 4). Выполнены миграции, настроена работа с медиафайлами, продемонстрированы все CRUD-операции через Django shell и админку. Реализована фильтрация невыполненных задач с сортировкой по приоритету.
 
 ---
-
-## Источники
-
-1. Django Models — https://docs.djangoproject.com/en/4.2/topics/db/models/
-2. Migrations — https://docs.djangoproject.com/en/4.2/topics/migrations/
-3. QuerySets — https://docs.djangoproject.com/en/4.2/ref/models/querysets/
-4. File uploads — https://docs.djangoproject.com/en/4.2/topics/files/
