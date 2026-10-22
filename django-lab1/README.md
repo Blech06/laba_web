@@ -70,8 +70,6 @@ MySite/
 python manage.py runserver
 ```
 
-Открыть в браузере: http://127.0.0.1:8000/
-
 ### 5. Создание приложения `news`
 
 ```bash
