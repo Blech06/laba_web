@@ -2,8 +2,8 @@
 
 **Тема:** Создание виртуального окружения. Контроллеры и маршруты  
 
-**Студент:** [ФИО]  
-**Группа:** [Группа]  
+**Студент:** Мержоев Ислам Игоревич
+**Группа:** ПИЖ-б-о-25-1
 
 ---
 
@@ -153,34 +153,6 @@ python manage.py runserver
 
 ---
 
-## Структура проекта
-
-```
-django-lab1/
-├── README.md
-├── requirements.txt
-├── screenshots/          # сюда положите скриншоты
-└── MySite/
-    ├── manage.py
-    ├── MySite/
-    │   ├── __init__.py
-    │   ├── settings.py   # INSTALLED_APPS содержит news
-    │   ├── urls.py       # include('news.urls')
-    │   ├── wsgi.py
-    │   └── asgi.py
-    └── news/
-        ├── __init__.py
-        ├── apps.py
-        ├── views.py      # index, test
-        ├── urls.py       # маршруты приложения
-        ├── models.py
-        ├── admin.py
-        ├── tests.py
-        └── migrations/
-```
-
----
-
 ## Вывод
 
 В ходе лабораторной работы:
@@ -195,9 +167,3 @@ django-lab1/
 Освоены базовые понятия Django: проект, приложение, views (контроллеры), URL-маршрутизация.
 
 ---
-
-## Источники
-
-1. Официальная документация Django — https://docs.djangoproject.com/
-2. Tutorial Django — https://docs.djangoproject.com/en/4.2/intro/tutorial01/
-3. Virtual environments (venv) — https://docs.python.org/3/library/venv.html
