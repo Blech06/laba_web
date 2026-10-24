@@ -393,24 +393,3 @@ ForeignKey (многие-к-одному), ManyToManyField (многие-ко-м
 В таблице Category не было записи с id=1, а миграция пыталась проставить это значение существующим новостям.
 
 ---
-
-## Вывод
-
-В ходе лабораторной работы:
-
-1. Создана модель `Category` и связана с `News` через `ForeignKey` с `on_delete=PROTECT`.
-2. Выполнены миграции, решены проблемы с целостностью данных (`null=True`).
-3. Настроена админ-панель: `list_display`, `list_filter`, `list_editable`, `search_fields`.
-4. Выполнено индивидуальное задание (вариант 4): модели `Group` и `Student` со связью `ForeignKey` и `on_delete=SET_NULL`.
-5. Проверена работа связей через админ-панель.
-
-Освоены принципы нормализации данных, типы связей Django и настройка административного интерфейса для связанных моделей.
-
----
-
-## Список использованных источников
-
-1. [Официальная документация Django — Model field reference](https://docs.djangoproject.com/en/stable/ref/models/fields/)
-2. [Официальная документация Django — Making queries](https://docs.djangoproject.com/en/stable/topics/db/queries/)
-3. Методические указания к лабораторной работе №4
-4. [Django на русском](https://django.fun/ru/)
