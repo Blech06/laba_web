@@ -13,3 +13,4 @@
 | [ЛР №2](./django-lab2/README.md) | `django-lab2/` |  Модели. CRUD |
 | [ЛР №3](./django-lab3/README.md) | `django-lab3/` |  Шаблоны. Админка Django |
 | [ЛР №4](./django-lab4/README.md) | `django-lab4/` |  Связи моделей. Внешний вид шаблона |
+| [ЛР №5](./django-lab5/README.md) | `django-lab5/` |  Внешний вид шаблона. Директивы. Теги. Фильтры |
